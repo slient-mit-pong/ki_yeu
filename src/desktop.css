@@ -1,0 +1,12 @@
+.img2_desktop {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    transform: rotate(-20deg);
+}
+.img3_desktop {
+    position: absolute;
+    top: 20vh;
+    left: 70vw;
+    transform: rotate(20deg);
+}

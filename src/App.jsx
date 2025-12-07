@@ -1,13 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Mobile from './mobile'
+import Desktop from './desktop'
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  let render 
+
+  const widthWin = document.documentElement.clientWidth
+
+  if (widthWin < 768) {
+    render = <Mobile />
+  }else {
+    render = <Desktop />
+  }
   return (
     <>
+      {render}
     </>
   )
 }
