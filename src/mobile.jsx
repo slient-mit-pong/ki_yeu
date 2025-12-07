@@ -1,10 +1,11 @@
 import Figure from './figure.jsx'
+import anh1 from './assets/image/anh1.jpg'
 
 function Mobile() {
     return(
         <>
             <h1>Tiệc tùng cùng các tân cử nhân!</h1>
-            <Figure />
+            <Figure img={anh1} />
             <section className="title">
                 <h2 className="title_main">Thư Mời</h2>
                 <h2 className="title_sub">Tốt Nghiệp</h2>

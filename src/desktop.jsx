@@ -1,6 +1,7 @@
 import Figure from './figure.jsx'
 import './desktop.css'
 import anh1 from './assets/image/anh1.jpg'
+
 function Desktop() {
     return(
         <>
