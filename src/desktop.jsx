@@ -1,13 +1,13 @@
 import Figure from './figure.jsx'
 import './desktop.css'
-
+import anh1 from './assets/image/anh1.jpg'
 function Desktop() {
     return(
         <>
             <h1>Tiệc tùng cùng các tân cử nhân!</h1>
-            <Figure img='src/assets/image/anh1.jpg'/>
-            <Figure className='img2_desktop' img='src/assets/image/anh1.jpg' />
-            <Figure className='img3_desktop' img='src/assets/image/anh1.jpg' />
+            <Figure img={anh1}/>
+            <Figure className='img2_desktop' img={anh1} />
+            <Figure className='img3_desktop' img={anh1} />
             <section className="title">
                 <h2 className="title_main">Thư Mời</h2>
                 <h2 className="title_sub">Tốt Nghiệp</h2>
