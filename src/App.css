@@ -27,6 +27,7 @@ img {
     object-fit: cover;
     margin: 0 auto;
     border-radius: 12px;
+    border-radius: 12px;
 }
 
 .title {
@@ -51,10 +52,11 @@ img {
     grid-template-columns: 1fr 1fr;
     text-align: center;
     font-family: 'faustina', sans-serif;
-    font-size: large;
+    
 }
 .time_location p {
     margin-top: 10%;
+    font-size: 2.7vh;
 }
 .time_line {
     border-right: 1px solid #dda259;
@@ -67,7 +69,10 @@ img {
     top: 90vh;
     width: 100vw;
     text-align: center;
-    font-size: medium;
+    
+}
+.conclusion p {
+    font-size: 2vh;
 }
 
 @media (min-width: 400px){
@@ -93,6 +98,9 @@ img {
     figure {
         width: 40vh;
         padding: 2%;
+    }
+    img {
+        border-radius: 50px;
     }
     .title {
         width: 40vh;

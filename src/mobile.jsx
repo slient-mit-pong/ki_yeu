@@ -12,14 +12,14 @@ function Mobile() {
             </section>
             <section className='time_location'>
                 <div className='time_line'>
-                <p>NGÀY 14.12 - 09:30</p>
+                <p>NGÀY 21.12 - 09:45</p>
                 </div>
                 <div className='location'>
-                <p>TRƯỜNG THPT QUỐC OAI</p>
+                <p>TTGDTX-GDNN Quốc Oai</p>
                 </div>
             </section>
             <section className='conclusion'>
-                <p>Mong rằng các bạn nhớ đến và đến sớm giúp mình!</p>
+                <p>Mn rảnh thì đến dự kỉ yếu mình nha!</p>
                 <p>Cảm Ơn!</p>
             </section>
         </>
